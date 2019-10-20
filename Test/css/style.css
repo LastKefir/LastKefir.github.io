@@ -1,0 +1,28 @@
+table.invisible {
+	font-size: 18px;
+	margin-top: 20px;
+}
+
+td.collon {
+	width: 280px;
+    vertical-align: top;
+} 
+
+table.invisible img {
+	width: 280px;
+	height: 320px;
+}
+
+.spacer {
+    width: 50px;
+}
+
+table.visible {
+	font-size: 18px;
+}
+
+input {
+	margin-top: 6px;
+	height: 22px;
+	width: 100%;
+}
