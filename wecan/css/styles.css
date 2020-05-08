@@ -1,0 +1,293 @@
+body {
+	//color: #8f8f8f;
+	font: 12px Tahoma, sans-serif;
+	background: #f8f8f8 /*url("../image/bg.png")*/;
+	border-top: 5px solid #7e7e7e;
+	margin: 0;
+}
+
+button {
+	color: #fff;
+	background-color: #d40d12;
+	border: none;
+	height: 32px;
+	font-family: 'Oswald', sans-serif;
+}
+
+p {
+	margin: 20px 0;
+}
+
+#wrapper {
+	max-width: 1280px;
+	margin: auto;
+}
+
+header {
+	padding: 20px 0;
+	margin-left: 10px;
+}
+
+header h1 {
+	position: relative;
+	left: 4px;
+	bottom: 10px;
+	font-size:  70px; 
+}
+
+
+nav {
+	background: #f3f3f3;
+	border: 1px solid #e7e7e7
+}
+
+nav a {
+	text-decoration: none;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	list-style-position: inside;
+	font: 14px 'Oswald', sans-serif;
+	padding: 10px;
+}
+
+.top-menu li {
+	display: inline-block;
+	padding: 10px 30px;
+	margin: 0;
+}
+
+.top-menu li.active {
+	background: #d40d12;
+}
+
+.top-menu a.active {
+	color: #fff;
+}
+
+.top-menu a {
+	color: black;
+}
+
+#heading {
+	/*background: transparent url(../image/h1-bg.png);*/
+	background: transparent;
+	background-color: #d40d12;
+	margin: 20px 0;
+	padding-left: 30px;
+	height: 40px
+}
+
+h1 {
+	display: inline-block;
+	color: #7e7e7e;
+	font: 40px/40px 'Oswald', sans-serif;
+	background: url(../image/bg.png);
+	margin: 0;
+	padding: 0 10px;
+}
+
+#img-page img{
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 5px;
+	width: 1270px;
+	height: 500px;
+}
+/*
+section img {
+	width: 690px;
+	height: 330px;
+}*/
+
+#img-page img:hover {
+	border: 1px solid #d40d12;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+/*section table img {
+	width: 128px;
+	height: 128px;
+}*/
+
+#slider {
+	/*margin: 1px 20px 20px;*/
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 5px;
+	width: 1270px;
+	height: 500px;
+	overflow: hidden;
+}
+
+#slider:hover {
+	border: 1px solid #d40d12;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+#line {
+	width: 5110px;
+	position: relative;
+	left: 0;
+	transition: all ease 1s;
+}
+
+#line img {
+	float: left ;
+	width: 1270px;
+	height: 500px;
+	border-right: 5px solid white;
+}
+
+#line::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+button {
+	margin: 0px 0px 10px 400px;
+}
+
+section p {
+	font-size: 17px;
+	margin-left: 10px;
+}
+
+
+table.invisible {
+	font-size: 18px;
+}
+
+td.collon {
+	width: 120px; /* Ширина левой колонки с рисунком */
+    vertical-align: top; /* Выравнивание по верхнему краю */
+} 
+
+table.invisible img {
+	width: 90px;
+	height: 31px;
+}
+
+.spacer {
+    width: 50px; /* Расстояние между колонками */
+}
+
+.page-table {
+	margin-top: 10px;
+	text-align: center;
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+table.page-table:hover {
+	border: 1px solid #d40d12;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+p.page-table {
+	font-size: 17px;
+}
+
+section a {
+	text-decoration: none;
+	color: #7e7e7e;
+}
+
+a:hover {
+	text-decoration: underline; 
+	color: #d40d12;
+}
+
+form input {
+	margin: 5px auto;
+}
+
+footer {
+	background: #7e7e7e;
+	color: #dbdbdb;
+	font-size: 11px;
+	margin-top: 20px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+}
+
+#footer {
+	max-width: 500px;
+	margin: auto;
+	padding: 10px 0;
+	height: 40px;
+
+}
+
+footer h2 {
+	font: 14px 'Oswald', sans-serif;
+	color: #fff;
+	border-bottom: 1px solid #919191;
+	margin: 0 0 10px 0;
+}
+
+#bg_popup{ 
+	background-color: rgba(0, 0, 0, 0.8); 
+	display: none; 
+	position: fixed; 
+	z-index: 99999; 
+	top: 0; 
+	right: 0; 
+	bottom: 0; 
+	left: 0; 
+} 
+
+#popup { 
+	background: #fff; 
+	width: 500px; 
+	margin: auto; 
+	padding: 5px 20px 13px 20px; 
+	border: 2px solid #1BA600; 
+	position: relative; 
+	-webkit-box-shadow: 0px 0px 20px #000; 
+	-moz-box-shadow: 0px 0px 20px #000; 
+	box-shadow: 0px 0px 20px #000; 
+	-webkit-border-radius: 15px; 
+	-moz-border-radius: 15px; 
+	border-radius: 15px; 
+} 
+
+#popup img {
+	width: 500px;
+	height: 500px;
+}
+/*.close{ 
+display:block; 
+position:absolute; 
+top:-12px; 
+right:5px; 
+width:25px; 
+height:25px; 
+line-height:28px; 
+color:#fff; 
+background:#1BA600; 
+cursor:pointer; 
+-webkit-border-radius: 15px; 
+-moz-border-radius: 15px; 
+-ms-border-radius: 15px; 
+-o-border-radius: 15px; 
+border-radius: 15px; 
+-moz-box-shadow: 1px 1px 3px #000; 
+-webkit-box-shadow: 1px 1px 3px #000; 
+box-shadow: 1px 1px 3px #000; 
+} 
+.close:hover { 
+background-color:#f30; 
+}*/
